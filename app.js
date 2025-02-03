@@ -15,19 +15,28 @@ inputBox.addEventListener("keydown", (event) => {
 
 
 function addFriend() {
+    let userWrittenFriend = getInputValue()
 
-    if ( !getInputValue() ) { //If no value is returned:
+    if ( !userWrittenFriend ) { //If no value was written:
         alert( 
-            "No value. \nPlease write something." 
+            "No value.\nPlease write something." 
         ) 
 
         clearInputThenFocus();
         return
     }
 
+    if (namesArray.includes( userWrittenFriend )  ) { // If the same name is repeated in the list:
+        alert(
+            "Name has been repeated.\nPlease provide a different name."
+        )
+        clearInputThenFocus()
+        return
+    }
+
     // If it has a value then:
-    addFriendToArray( getInputValue() );
-    updateFriendsList( getInputValue() );
+    addFriendToArray( userWrittenFriend );
+    updateFriendsList( userWrittenFriend );
 
     // Lastly we clear the box and most importantly we gain focus again
     clearInputThenFocus();
