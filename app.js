@@ -5,8 +5,10 @@ let namesArray = [];
 // Let's start by making it so the input is automatically selected, so no click required
 inputFocus()
 
-
-// Creates an input listener in order to press ENTER every time we want to add a name to the list, instead of having to click the button.
+/*
+Creates an input listener in order to press ENTER every time we want to add a name to the list,
+instead of having to click the button.
+*/
 inputBox.addEventListener("keydown", (event) => {
     if (event.key == 'Enter') {
         addFriend();
@@ -17,11 +19,10 @@ inputBox.addEventListener("keydown", (event) => {
 function addFriend() {
     let userWrittenFriend = getInputValue()
 
-    if ( !userWrittenFriend ) { //If no value was written:
+    if ( !userWrittenFriend ) { // If no value was written:
         alert( 
             "No value.\nPlease write something." 
         ) 
-
         clearInputThenFocus();
         return
     }
@@ -33,11 +34,9 @@ function addFriend() {
         clearInputThenFocus()
         return
     }
-
-    // If it has a value then:
+    // If it passed then:
     addFriendToArray( userWrittenFriend );
     updateFriendsList( userWrittenFriend );
-
     // Lastly we clear the box and most importantly we gain focus again
     clearInputThenFocus();
 }
@@ -76,9 +75,7 @@ function pickFriend() {
      We don't have to add + 1 to the whole, given we're not working with numbers but the entirety of the array.
      */
      let chosenNumber = Math.floor( Math.random() * length ) ; 
-
      let chosenFriend = namesArray[ chosenNumber ] ;
-
 
      let result = getElement('resultado') ;
     result.innerHTML = chosenFriend ;
