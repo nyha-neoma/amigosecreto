@@ -14,17 +14,17 @@ Once you're done, you can randomly pick a name from the list itself.
 * You can input names by pressing 'Enter' key on your keyboard. Clicking the Add button is not required.
 
 ## 🤔How to use
-<h3 align=center>1. Write the names of the people you want, inside the inputbox.</h3>
+<h4 align=center>1. Write the names of the people you want, inside the inputbox.</h3>
 <p align="center">
   <img width="460" height="300" src="https://i.imgur.com/qrw6nIt.png">
 </p>
 
-<h3 align=center>2. You'll see your names being added to a list by clicking "Add" or pressing 'Enter' on your keyboard.</h3>
+<h4 align=center>2. You'll see your names being added to a list by clicking "Add" or pressing 'Enter' on your keyboard.</h3>
 <p align="center">
   <img width="400" height="150" src="https://i.imgur.com/s8u5Wuh.png">
 </p>
 
-<h3 align=center>3. Click the button "Pick" in order to choose a random name.</h3>
+<h4 align=center>3. Click the button "Pick" in order to choose a random name.</h3>
 <p align="center">
   <img width="260" height="138" src="https://i.imgur.com/LUlxeum.png">
 </p>
