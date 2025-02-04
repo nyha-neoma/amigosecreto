@@ -6,10 +6,10 @@ In this repo you'll find a small project which allows you to add names to a list
 Once you're done, you can randomly pick a name from the list itself.
 </h4>
 
-\## How to use
+## How to use
 
 
-\## Current (but small) features
+## Current (but small) features
 * It DOES NOT allow for repeated names.
 * It DOES NOT allow for blank input.
 * It auto-focuses the input box every time you input a name.
