@@ -19,12 +19,12 @@ Once you're done, you can randomly pick a name from the list itself.
   <img width="460" height="300" src="https://i.imgur.com/qrw6nIt.png">
 </p>
 
-<h4 align=center>2. You'll see your names being added to a list by clicking "Add" or pressing 'Enter' on your keyboard.</h3>
+2. You'll see your names being added to a list by clicking "Add" or pressing 'Enter' on your keyboard.
 <p align="center">
   <img width="400" height="150" src="https://i.imgur.com/s8u5Wuh.png">
 </p>
 
-<h4 align=center>3. Click the button "Pick" in order to choose a random name.</h3>
+3. Click the button "Pick" in order to choose a random name.
 <p align="center">
   <img width="260" height="138" src="https://i.imgur.com/LUlxeum.png">
 </p>
