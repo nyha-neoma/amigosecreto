@@ -14,6 +14,7 @@ Once you're done, you can randomly pick a name from the list itself.
 * You can input names by pressing 'Enter' key on your keyboard. Clicking the Add button is not required.
 
 ## 🤔How to use
+![](https://i.imgur.com/qrw6nIt.png)
 
 
 
