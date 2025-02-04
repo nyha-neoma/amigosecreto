@@ -20,8 +20,9 @@ Once you're done, you can randomly pick a name from the list itself.
 <h3 align=center>2. You'll see your names being added to a list by clicking "Add" or pressing 'Enter' on your keyboard.</h3>
 <img src="https://i.imgur.com/s8u5Wuh.png" alt="" class="center">
 
-<h3 align=center>3. Click the button "Pick" in order to choose a random name.</h3>
-<img src="https://i.imgur.com/LUlxeum.png" alt="" class="center">
+<h3 align=center>3. Click the button "Pick" in order to choose a random name.
+<img src="https://i.imgur.com/LUlxeum.png" alt="" class="center"></h3>
+
 
 ## 👍More
 <h3> You can clone the repo. Free to go! </h3>
