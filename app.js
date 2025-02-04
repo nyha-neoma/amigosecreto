@@ -7,13 +7,14 @@ inputFocus()
 
 /*
 Creates an input listener in order to press ENTER every time we want to add a name to the list,
-instead of having to click the button.
+instead of having to click the "add" button.
 */
 inputBox.addEventListener("keydown", (event) => {
     if (event.key == 'Enter') {
         addFriend();
+        }
     }
-} );
+);
 
 
 function addFriend() {
@@ -25,7 +26,7 @@ function addFriend() {
         ) 
         clearInputThenFocus();
         return
-    }
+    };
 
     if (namesArray.includes( userWrittenFriend )  ) { // If the same name is repeated in the list:
         alert(
@@ -33,7 +34,7 @@ function addFriend() {
         )
         clearInputThenFocus()
         return
-    }
+    };
     // If it passed then:
     addFriendToArray( userWrittenFriend );
     updateFriendsList( userWrittenFriend );
