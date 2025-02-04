@@ -21,7 +21,7 @@ Once you're done, you can randomly pick a name from the list itself.
 
 <h3 align=center>2. You'll see your names being added to a list by clicking "Add" or pressing 'Enter' on your keyboard.</h3>
 <p align="center">
-  <img width="400" height="100" src="https://i.imgur.com/s8u5Wuh.png">
+  <img width="400" height="150" src="https://i.imgur.com/s8u5Wuh.png">
 </p>
 
 <h3 align=center>3. Click the button "Pick" in order to choose a random name.</h3>
